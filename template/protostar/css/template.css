@@ -3248,14 +3248,15 @@ input[type="submit"].btn.btn-mini {
 
 
 a.brand:before {
-    background-image: url("../logo.jpg");
+    background-image: url(../logo.png);
     content: "";
-    width: 85px;
-    height: 45px;
+    width: 132px;
+    height: 55px;
     position: relative;
     background-size: auto 100%;
     display: inline-block;
-    top: 6px;
+    top: 12px;
+    margin-right: 30px;
 }
 
 .navbar .brand:hover,
