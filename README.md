@@ -1,3 +1,0 @@
-#geolive-mobiledemo
-
-test
