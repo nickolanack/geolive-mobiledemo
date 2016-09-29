@@ -258,6 +258,50 @@
             "formatTipScript": ""
         }
     },
+    "widget.91": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "",
+            "className": "addmarker-tile",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.MarkerTile.91.onDragEndScript.js",
+            "profileIcon": null,
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
+    "widget.92": {
+        "name": "Draggable Marker Tile",
+        "instance": "MarkerTile",
+        "parameters": {
+            "customScript": "",
+            "controlColor": "rgb(48,84,107)",
+            "markerIconset": [
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png"
+            ],
+            "markerSize": 32,
+            "hoverTip": "",
+            "className": "addmarker-tile",
+            "wizardName": "MapItemTemplate",
+            "guestLoginDrag": true,
+            "onDragEndScript": "widget.MarkerTile.92.onDragEndScript.js",
+            "profileIcon": null,
+            "formatTipScript": "",
+            "widgetTitle": "",
+            "readAccess": "public",
+            "position": "RIGHT_CENTER"
+        }
+    },
     "widget.67": {
         "name": "Custom CSS",
         "instance": "CSS",
@@ -365,21 +409,23 @@
         "instance": "IconSet",
         "parameters": {
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/dlN_[ImAgE]_E36_2F0_[G].png"
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png",
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png"
             ],
             "layerMap": [],
             "tipMap": [],
             "filterLayerMappedIcons": true,
             "iconsetMetadata": {
                 "layerMap": {
-                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/dlN_[ImAgE]_E36_2F0_[G].png": 11
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png": 11,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/y1G_uvp_ZYx_[G]_[ImAgE].png": 14,
+                    "components\/com_geolive\/users_files\/user_files_400\/Uploads\/6oT_[ImAgE]_Bpn_[G]_kPq.png": 13
                 },
                 "renderSettings": []
             },
             "widgetTitle": "",
-            "readAccess": "public",
-            "_raw_layerMap": null,
-            "_raw_tipMap": null
+            "readAccess": "public"
         }
     },
     "widget.75": {
@@ -389,7 +435,7 @@
             "customScript": "",
             "controlColor": "rgb(48,84,107)",
             "markerIconset": [
-                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/dlN_[ImAgE]_E36_2F0_[G].png"
+                "components\/com_geolive\/users_files\/user_files_400\/Uploads\/TmK_yaB_OxH_[G]_[ImAgE].png"
             ],
             "markerSize": 32,
             "hoverTip": "Add a placemark",
@@ -400,7 +446,7 @@
             "widgetTitle": "",
             "readAccess": "public",
             "position": "RIGHT_CENTER",
-            "wizardName": "ReportViolation"
+            "wizardName": ""
         }
     },
     "widget.77": {
