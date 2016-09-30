@@ -68,7 +68,8 @@
         "parameters": {
             "enableLayerSyncronization": true,
             "onlyShowMarkersInIconset": false,
-            "tileCachePath": "\/srv\/www\/vhosts\/production\/bcwf.s54.ok.ubc.ca\/http\/tiles"
+            "tileCachePath": "",
+            "googleMapsServerApiKey": "AIzaSyCRVSP4SqvFRYnkvrwnPPITE2ThgbH1q2w"
         }
     },
     "plugin.11": {
@@ -388,7 +389,7 @@
             "formatLayerPopoverScript": "",
             "formatLegendScript": "",
             "onDragEndScript": "widget.Legend.72.onDragEndScript.js",
-            "iconSize": 31,
+            "iconSize": 47,
             "defaultIcon": "DEFAULT",
             "showEditLayerButtons": true,
             "widgetTitle": "",
